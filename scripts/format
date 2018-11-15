@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -eu
+
+find src/ -name *cpp | xargs clang-format --verbose -i
+
