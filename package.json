@@ -6,7 +6,8 @@
   "scripts": {
     "build": "esy b",
     "build:js": "esy b dune build examples/Bin.bc.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rtop": "dune utop src -- -implicit-bindings"
   },
   "repository": {
     "type": "git",
